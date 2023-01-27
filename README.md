@@ -31,15 +31,17 @@ Today, data is scattered everywhere in the world. Especially in social media, th
 2)Open Terminal if your machine is mac or command prompt if it is windows.
 ![Screen Shot 2023-01-28 at 12 49 25 AM](https://user-images.githubusercontent.com/116914474/215178594-d0941770-2d78-40eb-82bb-01eaf5af48e5.png)
 
-3)After running "streamlit run twitter.py" command a window gets directly opened
+3)After running "streamlit run twitter.py" command a window directly gets opened
 ![Screen Shot 2023-01-28 at 12 56 18 AM](https://user-images.githubusercontent.com/116914474/215179729-8ce2409e-afb6-4365-bf49-e0e121fc279b.png)
 
 4)You can select the count of data that to be scraped.
 ![Screen Shot 2023-01-28 at 12 59 45 AM](https://user-images.githubusercontent.com/116914474/215180324-bb333671-4f2c-4040-ada1-07897e8e9e00.png)
 
-5)You can upload the data in mongodb database 
+5)You can upload the data in mongodb database.
 
-6)If you want to download you can download the file in the format it should be downloaded.
+![Screen Shot 2023-01-28 at 2 16 49 AM](https://user-images.githubusercontent.com/116914474/215194065-af831c3e-c4eb-4268-8608-ac0d633be567.png)
 
-![Screen Shot 2023-01-28 at 1 03 51 AM](https://user-images.githubusercontent.com/116914474/215181855-04f14143-c9f1-4fa9-8739-c3d06e952d97.png)
 
+6)If you want to download you can download the file in the format you want.
+
+![Screen Shot 2023-01-28 at 2 18 49 AM](https://user-images.githubusercontent.com/116914474/215194298-e88e7105-9edd-426e-947f-729c6118581c.png)
