@@ -6,13 +6,13 @@ import streamlit as st
 # tweeter data scrapping as per keyword or hashtag
 data1=[]
 with st.form("my_form"):
-    search= st.text_input("Enter a keyword or hashtag based on that daya should be scrapped: ")
-    number_tweets=st.slider('Enter the count of tweets to be scrapped:', 0,1000,100)
+    search= st.text_input("Enter a keyword or hashtag based on that data should be scraped: ")
+    number_tweets=st.slider('Enter the count of tweets to be scraped:', 0,1000,100)
     num_tweet=int(number_tweets)
     submit=st.form_submit_button("Submit")
     if submit:
         for i,tweet in enumerate(sntwit.TwitterSearchScraper(search).get_items()):
-            if i>1000:
+            if i>num_tweet:
                 break
             data1.append([tweet.date,tweet.id,tweet.url,tweet.content,tweet.user.username,tweet.replyCount,tweet.retweetCount,tweet.lang,tweet.likeCount,tweet.source])                                   
 df=pd.DataFrame(data1,columns=["Date","ID","URL","Content","User_name","Reply_count","Retweet_count","Language","Likes_count","Source"])
