@@ -23,9 +23,11 @@ with st.form("form"):
     if Enter:
         data=df.to_dict("records")
         client=MongoClient("mongodb://localhost:27017/")
+        df.reset_index(inplace=True)
+        data_dict = df.to_dict("records")
         db=client["tweeter_database"]
         collection=db[search]
-        collection.insert_one(data)
+        collection5.insert_one({"index":f"{search}","data":data_dict})
         st.success("Data has been uploaded:",icon='✅')
         st.write("list of collection names:")
         mycoll=db.list_collection_names()
