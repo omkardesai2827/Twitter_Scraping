@@ -1,1 +1,2 @@
 # Twitter_Scrapping
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fmachash.com%2Fappleinsider%2F343605%2Ftwitter-blocks-user-links-to-other-social-platforms-except%2F&psig=AOvVaw1ik4YyYnsTV85r46R3HJ6L&ust=1674929460642000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi9vc6s6PwCFQAAAAAdAAAAABAK![image](https://user-images.githubusercontent.com/116914474/215163183-7ed084c4-c41c-493d-86f9-2ff79d30308f.png)
