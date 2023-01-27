@@ -25,7 +25,7 @@ with st.form("form"):
         client=MongoClient("mongodb://localhost:27017/")
         db=client["tweeter_database"]
         collection=db[search]
-        db.collection.insert_many(data)
+        collection.insert_one(data)
         st.success("Data has been uploaded:",icon='✅')
         st.write("list of collection names:")
         mycoll=db.list_collection_names()
