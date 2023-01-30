@@ -32,10 +32,12 @@ Today, data is scattered everywhere in the world. Especially in social media, th
 ![Screen Shot 2023-01-28 at 12 49 25 AM](https://user-images.githubusercontent.com/116914474/215178594-d0941770-2d78-40eb-82bb-01eaf5af48e5.png)
 
 3)After running "streamlit run twitter.py" command a window directly gets opened
-![Screen Shot 2023-01-28 at 12 56 18 AM](https://user-images.githubusercontent.com/116914474/215179729-8ce2409e-afb6-4365-bf49-e0e121fc279b.png)
+![Screen Shot 2023-01-31 at 12 43 57 AM](https://user-images.githubusercontent.com/116914474/215572875-618b2584-484d-4654-bc2b-76c72ea925b7.png)
+
 
 4)You can select the count of data that to be scraped.
-![Screen Shot 2023-01-28 at 12 59 45 AM](https://user-images.githubusercontent.com/116914474/215180324-bb333671-4f2c-4040-ada1-07897e8e9e00.png)
+![Screen Shot 2023-01-31 at 12 46 03 AM](https://user-images.githubusercontent.com/116914474/215573213-b2f9060f-b0ae-4ecb-8d4d-21fe5091a07d.png)
+
 
 5)You can upload the data in mongodb database.
 
