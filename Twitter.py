@@ -30,12 +30,12 @@ with st.form("form"):
         st.success("Data has been uploaded:",icon='✅')
 st.write("Download the file in the format you want:")
 st.write("Download in csv format")
-def convert_to_csv(df1):
-    return df1.to_csv()
+def convert_to_csv(df):
+    return df.to_csv(index=False).encode("utf-8")
 csv_file=convert_to_csv(df)
-st.download_button(csv_file,f"{search}_tweet.csv","text/csv",key="download-csv")
+st.download_button("download csv",csv_file,f"{search}_tweet.csv","text/csv",key="download-csv")
 st.write("Downalod in json format")
-def convert_to_json(df1):
-    return df1.to_json()
+def convert_to_json(df):
+    return df.to_json().encode("utf-8")
 json_file=convert_to_json(df)
-st.download_button(json_file,f"{search}_tweet.json","text/json",key="download-json")
+st.download_button("download json",json_file,f"{search}_tweet.json","text/json",key="download-json")
